@@ -1,13 +1,13 @@
 /*
-12345 Nome do Estudante 1 - TA
-23456 Nome do Estudante 2 - TA
-34567 Nome do Estudante 3 - TA
+202407106773 Lucas Kronemberger - TA
+202501000771 Gabriel Militão Vilas Boas - TA
+202501001483 Matheus de Andrade Alvarenga - TA
 */
 
 #include <Keypad.h>
 
 // ==============================================================================
-// 1. ELEMENTOS ARQUITETURAIS OBRIGATÓRIOS (Ref: Seção 2.1)
+// 1. ELEMENTOS ARQUITETURAIS OBRIGATÓRIOS
 // ==============================================================================
 int MEM[16];            // memória de dados simulada
 int PC = 0;             // program counter (controla a instrução atual/próxima)
@@ -37,7 +37,7 @@ bool aguardandoOperando = false;
 byte opcodeTemp = 0;
 
 // ==============================================================================
-// 3. PINAGEM OBRIGATÓRIA E HARDWARE (Ref: Seção 3.3)
+// 3. PINAGEM OBRIGATÓRIA E HARDWARE
 // ==============================================================================
 const int pinoA = 22, pinoB = 23, pinoC = 24, pinoD = 25;
 const int pinoE = 26, pinoF = 27, pinoG = 28;
@@ -105,7 +105,7 @@ void setup() {
 }
 
 // ==============================================================================
-// LOOP PRINCIPAL (Mantido limpo e modularizado)
+// LOOP PRINCIPAL
 // ==============================================================================
 void loop() {
   verificarComandosSerial();
