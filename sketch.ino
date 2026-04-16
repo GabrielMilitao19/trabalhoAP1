@@ -1,7 +1,8 @@
 /*
-202407106773 Lucas Kronemberger - TA
-202501000771 Gabriel Militão Vilas Boas - TA
-202501001483 Matheus de Andrade Alvarenga - TA
+202407106773 - Lucas Kronemberger - TA
+202501000771 - Gabriel Militão Vilas Boas - TA
+202501001483 - Matheus de Andrade Alvarenga - TA
+202407155375 - João Vitor Rodrigues - TA
 */
 
 #include <Keypad.h>
